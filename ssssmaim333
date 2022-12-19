@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="пикчи/image 3.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway&display=swap" rel="stylesheet">
+    <title>ProgChange</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<div id= "wrapper">
+    <nav id="mainnav">
+     <header class="clearfix">
+     <div id="head">
+        <p><a name="ProgChange" id="logo"> ProgChange</i></a></p>
+        <ul> 
+            <li><a href="#yslygi" class="active">Услуги</a></li>
+            <li><a href="#port" class="active">Портфолио </a></li>
+            <li><a href="#navs" class="active">Навыки</a></li>
+            <li><a href="#mey" class="active">Обо мне</a></li>
+            <li><a href="#konta" class="active">Контакты</a></li>
+        </ul>
+     </div>
+    </nav>
+    </header>
+    <main>
+        
+            <div id="tekst_sverhu_kartinki">
+
+            <img src="img/Rec11.png" alt="Текст сверху картинки" draggable="false">
+            
+            <div class="tekst_sverhu_kartinki">
+               <p><a name="ProgChange" >Здравствуйте! Меня зовут Никита и я погружу вас в мир интернета</a>
+               </p></div>
+           
+            </div>
+             <h2 class="zanatia"><a name="yslygi" >Чем я занимаюсь</a></h2>    
+            <div class="yslygi_block_1">
+                 
+                   <div  class="contmeleft">
+                        <img src="скрин/image 1.png" alt="" draggable="false">
+                        <p>Figma</p>
+                        <p>Создание полноценного макета в Figma под любое устройство</p>
+                   </div>
+                   <div class="contmeleft_1">
+                        <img src="скрин/image 2.png" alt="" draggable="false">
+                        <p>Full Stack</p>
+                        <p>Создание полноценных сайтов, полностью под ваш вкус и выбор </p>
+                   </div>
+                   <div class="contmeleft_2">
+                        <img src="скрин/image 3.png" alt="" draggable="false">
+                        <p>Backend</p>
+                        <p>Разработка внутреннего функционала сайта на сервере</p>
+                    </div>
+            </div>
+            <div id="port">
+
+            <img src="задняя часть/Rectangle 50.png" alt="" draggable="false">
+            <h2 class="portfolio_name"><a name="port">Мои работы</a></h2>
+
+            <div class="portfolio">
+                <div class="port_1">
+                    <a href="https://aurinal-a.github.io/Pro/"target="_blank" ><img src="портфолио/Rectangle 50 (1).png" alt="" draggable="false"></a>
+                    
+                </div>
+                <div class="port_2">
+                    <a href="https://kuertov999.github.io/my-site//"target="_blank"><img src="портфолио/Screenshot_21.png" alt="" draggable="false"></a>
+                    
+                </div>
+            </div>
+            </div>
+        <div id="topik"> 
+            <h2 class="nav"><a name="navs">Мои навыки</a></h2>
+            <div class="navi">
+                <div class="nav_1">
+                    <img src="навыки/figma.png" alt="" draggable="false">
+                    <p>Figma - частично бесплатный онлайн-редактор векторной графики, позволяющий работать в командах.</p>
+                </div>
+                <div class="nav_2">
+                    <img src="навыки/Html.png" alt="" draggable="false">
+                    <p>HTML-язык гипертекстовой разметки текста. Он нужен, чтобы размещать на веб-странице элементы: текст, картинки, таблицы и видео.</p>
+                </div>
+                <div class="nav_3">
+                    <img src="навыки/css.png" alt="" draggable="false">
+                    <p>CSS - важная часть фронтенд-разработки и один из ключевых навыков для веб-разработчика.</p>
+                </div>
+            </div>
+        </div>
+        <div id="me">
+            <img src="обо мне/Rectangle 50 (2).png" alt="" draggable="false">
+            <h2 class="me_name"><a name="mey"></a>Обо мне </h2>
+           <div class="chel">
+            <img src="обо мне/casual1.png " alt="" draggable="false">
+           </div>
+           <p class="dop_p">Что я хотел бы отметить:
+            <div class="me_1">
+                    <ul>
+                        <li>внимательность ко всем требованиям заказчика и прояснения любых недочетов</li>
+                        <li>ответственно отношусь к работе и довожу любое дело до конца</li>
+                        <li>я предоставляю каждый шаг выполненной работы</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        
+        <div id="kontacty">
+            <h2 class="knt"><a name="konta"></a>Контакты</h2>
+        <div class="forma">
+            <div class="form_item">
+                
+                <select name="topic" id="topic">
+                    <option value="1">Выбрать услугу</option>
+                    <option value="2">Figma</option>
+                    <option value="3">Full Stack</option>
+                    <option value="4">Backend</option>
+                </select>
+            </div>
+           
+                <form action="">
+                    <div class="form_item">
+                        
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="ФИО" required>
+                    </div>
+                    <br>
+                    <div class="form_item">
+                       
+                        <input type="email" name="email" id="email" placeholder="Введите ваш email" required>
+                        
+                    </div>
+                   
+                    <br>
+                    <div class="form_item" id="contact-form">
+                        <input type="submit">
+                    </div>
+                </form>
+        </div>
+            <div class="kontacts">
+                <p>Для связи со мной</p>
+                <p ><a href="https://vk.com/rocky555" class="aa"target="_blank">https://vk.com/rocky555</a></p>
+                <p>nikita.baturin3223@gmail.com</p>
+
+            </div>
+
+
+
+        </div>
+
+
+    </main>
+</div>  
+<footer>
+    <p class="footer_block"><a href="#ProgChange" >ProgChange&#9650</a></p>
+</footer>
+</body>
+</html>
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+*{
+    scroll-behavior: smooth;
+    }
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 135%;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+#mainnav ul {
+    list-style: none;
+    /*Убираем маркеры списка*/
+    margin: 0;
+    padding-left: 40px;
+   
+}
+
+#mainnav li {
+    display: inline;
+    /*выстраиваем пункты меня в ряд*/
+
+    line-height: 100px;
+    font-size: 22px;
+    padding-left: 40px;
+
+}
+
+#mainnav a {
+    text-decoration: none;
+    /*убираем подчеркивание*/
+    color: aliceblue;
+
+}
+
+#mainnav a:hover {
+    text-decoration: underline;
+}
+
+#mainnav li.active a {
+    font-weight: bold;
+
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    background-color: #b1a9b4; 
+}
+
+
+main {
+    padding-bottom: 100px;
+}
+
+footer {
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+text-transform: uppercase;
+}
+
+body {
+    background-color: #b1a9b4;
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+    
+}
+
+.footer_block {
+    display: inline-block;
+    width: 450px;
+    text-align: left;
+padding-right: 250px;
+}
+
+.footer_block a {
+    color: rgb(255, 255, 255);
+text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+header,
+main,
+footer {
+
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+div#tekst_sverhu_kartinki {
+
+    position: relative;
+
+}
+
+.tekst_sverhu_kartinki {
+    position: absolute;
+    top: 35%;
+    left: 368px;
+    width: 704px;
+    height: 196px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.contmeleft{
+    width: 345px;
+height: 140px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+text-align: center;
+}
+
+.contmeleft_1{
+    width: 344px;
+height: 142px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+/* or 35px */
+
+text-align: center;
+
+}
+.contmeleft_2{
+    width: 344px;
+height: 142px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+text-align: center;
+}
+.zanatia {
+    position: absolute;
+    width: 1450px;
+    height: 56px;
+    margin-top: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+
+    text-align: center;
+
+}
+
+.yslygi_block_1{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 160px;
+margin-bottom: 138px;
+margin-top: 100px;
+gap: 40px;
+width: 1165px;
+height: 180px;
+}
+.port_1{
+    position: absolute;
+    top: -570px;
+    left: 170px;
+width: 375px;
+height: 390px;
+position: absolute;
+width: 372px;
+height: 56px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+text-align: center;
+
+}
+.port_2{
+    
+position: absolute;
+top: -570px;
+left: 770px;
+width: 372px;
+height: 56px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+/* identical to box height, or 56px */
+
+text-align: center;
+
+}
+.portfolio{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 169px;
+
+position: absolute;
+width: 913px;
+height: 56px;
+
+}
+.portfolio_name{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+width: 1063px;
+height: 56px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+
+text-align: center;
+}
+div#port{
+
+    position: relative;
+
+}
+.nav{
+    position: absolute;
+    width: 1450px;
+    height: 56px;
+    margin-top: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+ 
+    text-align: center;
+}
+.nav_1{
+    width: 255px;
+    height: 302px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.nav_2{
+    width: 254px;
+    height: 210px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.nav_3{
+    width: 255px;
+    height: 245px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: center;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.navi{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 290px;
+    padding-top: 180px;
+    margin-top: 70px;
+    gap: 40px;
+    width: 1165px;
+    height: 520px;
+}
+div#topic{
+    position: relative;
+}
+div#me{
+    position: relative;
+}
+.me_name{  /*заголовок*/
+    position: absolute;
+    width: 1065px;
+    height: 56px;
+    left: 188px;
+    top: 100px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    
+    text-align: center;
+}
+.me_1{ /*блок текста*/
+    position: absolute;
+    width: 500px;
+    height: 561px;
+    left: 780px;
+    top: 400px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    /* or 35px */
+    
+    display: flex;
+    
+}
+.chel{ /*картинка главная*/
+    position: absolute;
+    width: 525px;
+    height: 626px;
+    left: 188px;
+    top: 260px;
+    
+}
+.dop_p{
+    position: absolute;
+width: 525px;
+height: 561px;
+left: 728px;
+top: 80px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 140%;
+/* or 35px */
+
+display: flex;
+align-items: center;
+}
+
+
+#contact-form input[type="submit"] {/*отправить*/
+    
+    padding: 5px;
+    width: 360px;
+    height: 69px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #b1a9b4;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+border: 0ch;
+}
+
+.form_item input[type="text"]{ /*введите ваше имя*/
+    background-color: #fcfcfc;
+    width: 350px;
+    height: 69px;
+    padding: 5px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+color: #4D4D4D;
+border: 0ch;
+}
+
+.form_item input[type="email"]{/*емэйл*/
+    background-color: #ffffff;
+    width: 350px;
+    height: 69px;
+    padding: 5px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+border: 0ch;
+}
+
+.form_item select{ /*заказать услугу*/
+background-color: #ffffff;
+width: 360px;
+height: 69px;
+padding: 5px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+border: 0ch;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: #b1a9b4;
+}
+div#kontacty{
+    position: relative;
+}
+.knt{
+    position: absolute;
+width: 1065px;
+height: 56px;
+left: 188px;
+top: 70px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 140%;
+text-align: center;
+}
+.forma{
+padding-top: 200px;
+padding-left: 270px;
+
+width: 347px;
+height: 321px;
+left: 250px;
+top: 210px;
+padding-bottom: 80px;
+
+}
+.kontacts{
+    position: absolute;
+width: 435px;
+height: 336px;
+left: 730px;
+top: 181px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 65px;
+}
+.aa{
+    color: rgb(255, 255, 255);
+text-decoration: none;
+}
